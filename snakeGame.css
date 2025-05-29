@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    min-height: 100vh;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #00ff00;
+    font-size: 28px;
+}
+
+.board {
+    margin: 20px auto;
+    display: grid;
+    border: 2px solid #00ff00;
+    background-color: #000000;
+}
+
+.board div {
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+    background-color: #111;
+}
+
+.board div.snake {
+    background-color: #00ff00;
+}
+
+.board div.food {
+    background-color: red;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.game-over {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+.credit-badge {
+    margin-top: 20px; /* Increase spacing from the button */
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0.8;
+}
+

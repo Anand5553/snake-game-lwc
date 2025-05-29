@@ -1,0 +1,11 @@
+<template>
+    <div class="container">
+        
+        <h1>🐍 Snake Game</h1>
+        <div class="board" lwc:dom="manual"></div>
+        <div class="score">Score: {score}</div>
+        <div class="game-over" if:true={gameOver}>Game Over! Press Restart to Play Again</div>
+        <button onclick={restartGame}>Restart Game</button>
+        <div class="credit-badge">Made with ❤️ by Anand Dash</div>
+    </div>
+</template>
